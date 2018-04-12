@@ -3,7 +3,7 @@ import random
 #Rock #Paper #Scissors
 
 #Promt user for input
-player_one = input("Pick Rock, Paper, or scissors: ")
+player_one = input("Pick Rock, Paper, or scissors: ").lower()
 
 #Get a random integer between 0 and 2 inclusive
 ai = random.randint(0,2)
