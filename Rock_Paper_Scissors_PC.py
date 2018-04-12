@@ -21,25 +21,25 @@ else:
 if player_one == ai_move:
 	print(f"AI chooses {player_one}")
 	print("It's a draw! Play again.")
-elif player_one == "Rock":
+elif player_one == "rock":
 	if ai_move == "Scissors":
 		print("AI chooses Scissors")
 		print("Rock smashes scissors. You win!")
-	elif ai_move == "Paper":
+	else:
 		print("AI chooses Paper")
 		print("Paper wraps rock. AI wins! The Machines are coming :-|")
-elif player_one == "Paper":
+elif player_one == "paper":
 	if ai_move == "Scissors":
 		print("AI chooses Scissors")
-		print("Scissors cuts paper. P AI wins! The Machines are coming :-|")
-	elif ai_move == "Rock":
+		print("Scissors cuts paper. AI wins! The Machines are coming :-|")
+	else:
 		print("AI chooses Rock")
 		print("Paper wraps rock. You win!")
-elif player_one == "Scissors":
+elif player_one == "scissors":
 	if ai_move == "Paper":
 		print("AI chooses Paper")
 		print("Scissors cuts paper. You win!")
-	elif ai_move == "Rock":
+	else:
 		print("AI chooses Rock")
 		print("Rock smashes scissors.  AI wins! The Machines are coming :-|")
 else:
